@@ -29,16 +29,16 @@ llc path/to/file.ll path/to/result
 ### small little language exmaple
 ```
 -- let's define a function called `main` that acts as our entry point
-let main {
+let main() {
     -- print some text
-    print_line("Hello, World!");
+    print_string("Hello, World!\n");
 
-    print_line("check if 39 is prime");
+    print_string("check if 39 is prime\n");
 
     if is_prime(39) {
-        print_line("39 is prime!");
+        print_string("39 is prime!\n");
     } else {
-        print_line("39 is not prime!");
+        print_string("39 is not prime!\n");
     }
 }
 

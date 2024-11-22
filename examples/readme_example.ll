@@ -1,14 +1,14 @@
 -- let's define a function called `main` that acts as our entry point
 let main() {
     -- print some text
-    print_line("Hello, World!");
+    print_string("Hello, World!");
 
-    print_line("check if 39 is prime");
+    print_string("check if 39 is prime");
 
     if is_prime(39) {
-        print_line("39 is prime!");
+        print_string("39 is prime!");
     } else {
-        print_line("39 is not prime!");
+        print_string("39 is not prime!");
     }
 }
 
